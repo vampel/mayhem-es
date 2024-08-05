@@ -84,9 +84,9 @@ ya dentro daremos en el circulo del centro para empezar a escanear/buscar dispos
 
 *PD. yo no pude capturar mouse por que el tengo es un Red Dragon ;[*
 
-*Nota: se le agrega un capacitor de 10v 10uf para evitar perdida de energia cuando entra en accion la antenia del NRF*
+*Nota: se le agrega un capacitor de 10v 10uf para evitar perdida de energia cuando entra en accion la antena del NRF*
 
-**En la Board que hice le meti un capacitor SMD para que casi no se note y no tener el tambito saliendo como en las MAYHEM de arriba.**
+**En la Board que hice le meti un capacitor SMD para que casi no se note y no tener el tambito saliendo como en las MAYHEM de mas abajo en este post.**
 ![](https://github.com/vampel/may-hem/blob/main/images/smd.jpeg)
 
 
@@ -121,6 +121,8 @@ SAVED: es donde estaran todas tus sub-frecuencias guardadas:
 ![](pics/subsaved.jpg)
 
 *Nota: depende del Firmware en tu Flipper Zero(firmware de flipper zero) algunas sub-frecuencias vienen bloqueadas..*
+
+*Nota2: si, si se puede capturar Alarmas de carros.. (alarmas genericas)
 
 #
 
