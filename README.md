@@ -40,7 +40,9 @@ Al abrir cualquiera de esos saldra este mensaje:
 
 ![wESP32](pics/wESP32-CAM.jpg)
 
-Nota: si se queda pegado toca reiniciar o quitar y volver a insertar
+Nota: si se queda pegado toca reiniciar o quitar y volver a insertar la board
+
+#
 
 Que hace cada una de ellas:
 
