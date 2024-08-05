@@ -36,7 +36,7 @@ Por ende a alguien se le ocurrio hacer el firmware ya mencionado MAYHEM que hace
 
 ![menu](pics/MAYHEMmenu.jpg)
 
-Al abrir cualquiera de esos saldra este mensaje:
+Al abrir cualquiera de esos saldra este mensaje si no detecta rapido el ESP32-CAM:
 
 ![wESP32](pics/wESP32-CAM.jpg)
 
@@ -63,7 +63,37 @@ Que hace cada una de ellas:
 - [MAYHEM] QR Code: lectos de codigos QR (este ultimo no lo eh hecho funcionar)
   ![](pics/MQR.jpg)
 
-  Hasta aqui seria el firmware mayhem sobre el ESP32-CAM pero la Board MAYHEM que hay en el mercado (incluido la que diseñe) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
+    Hasta aqui seria el firmware mayhem sobre el ESP32-CAM pero la Board MAYHEM que hay en el mercado (incluido la que diseñe) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
+
+#
+
+En internet hay varias versiones pero los precios si se me hacen altos..
 
   ![MAYHEM en el mercado](pics/Mayhemsale.jpg)
-  la de eried y la cyber-bros
+(115 dlls pero tu soldas todo y la cyber-bros la ultima vez que vi estaban en 85 dlls)
+
+aqui precios tomados el dia 04/08/2024
+
+La Mayhem de Eryed (ya soldada y testeada):
+![](pics/Meryed.jpg)
+
+Orange Dragon(la descripcion dice solo la Board):
+![](pics/Morange.jpg)
+Nota: las letras en la imagen dicen: Bring your own modules = tengas tus propios modulos osea que si, es solo la board.
+
+#
+
+Los precios estan altos como ya mencione y si, si hay una forma economica de hacerlo.. que ocupas? 
+Pues solo los modulos:
+
+Esta fue las pruebas que hice(salgo en la pantalla Xd):
+![](pics/ESP32-CAM-solo.jpg)
+
+Despues de probar que funciono opte por soldar todo en las Protoboards originales del Flipper Zero:
+![](pics/mayhem1.0.jpeg)
+![](pics/mayhem1.1.jpeg)
+
+
+
+
+ 
