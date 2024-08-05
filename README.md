@@ -63,7 +63,64 @@ Que hace cada una de ellas:
 - [MAYHEM] QR Code: lectos de codigos QR (este ultimo no lo eh hecho funcionar)
   ![](pics/MQR.jpg)
 
-    Hasta aqui seria el firmware mayhem sobre el ESP32-CAM pero la Board MAYHEM que hay en el mercado (incluido la que diseñe) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
+Hasta aqui seria el firmware mayhem sobre el ESP32-CAM pero la Board MAYHEM que hay en el mercado (incluido la que diseñe) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
+
+#
+
+**nrf24l01**
+
+![](https://github.com/vampel/may-hem/blob/main/images/NRF24onFZ.jpeg)
+
+el nrf24l01 es un modulo de radiofrecuencia que trabaja en la 2.4Ghz y no, no tiene que ver con la wifi, en el Flipper Zero tiene varios usos pero solo hablaremos del Mouse Jacker para tener una idea de que hace:
+
+Seleccionaremos en el Flipper Zero el NRF:
+![](pics/NRFscreen.jpg)
+
+Y usaremos el Sniffer para escanear y detectar Mouse, teclados o kits(ambos) inalambricos:
+![](pics/NRFsniffer.jpg)
+
+ya dentro daremos en el circulo del centro para empezar a escanear/buscar dispositivos que trabajen a 2.4ghz:
+![](pics/NRFsniff2.jpg)
+
+*PD. yo no pude capturar mouse por que el tengo es un Red Dragon ;[*
+
+*Nota: se le agrega un capacitor de 10v 10uf para evitar perdida de energia cuando entra en accion la antenia del NRF*
+
+**En la Board que hice le meti un capacitor SMD para que casi no se note y no tener el tambito saliendo como en las MAYHEM de arriba.**
+![](https://github.com/vampel/may-hem/blob/main/images/smd.jpeg)
+
+
+#
+
+**CC1101**
+
+![](https://github.com/vampel/may-hem/blob/main/images/AssyCC1101.jpeg)
+
+Pues es el mismo que viene dentro del fliper, pero este al ser de antena tiene mayor alcance (hasta 480 metros segun fabricante).
+El integrado en el Flipper zero es hasta 100 metros.
+
+Al igual que con el CC1101 interno iremos a Sub-ghz
+![](pics/subghz.jpg)
+
+Ya dentro iremos hasta abajo del menu(Radio Settings):
+![](pics/subradio.jpg)
+
+Y ahi podremos ver que si detecta la Antena como EXTERNAL:
+![](pics/subradioext.jpg)
+y si, si le das con las flechas de a lado cambiara a internal que seria la CC1101 interna del Flipper Zero(no te la deshabilita)
+
+en las primeras opciones de Sub-ghz:
+![](pics/sub-menu.jpg)
+
+READ: comenzar a Escanear sub-frecuencias:
+![](pics/subread.jpg)
+
+cuando detecte una señal pues la guardas ( como test usa un control de porton, de puerta, de pluma de parking, etc)
+
+SAVED: es donde estaran todas tus sub-frecuencias guardadas:
+![](pics/subsaved.jpg)
+
+*Nota: depende del Firmware en tu Flipper Zero(firmware de flipper zero) algunas sub-frecuencias vienen bloqueadas..*
 
 #
 
@@ -84,15 +141,19 @@ Orange Dragon(la descripcion dice solo la Board):
 #
 
 **Los precios estan altos como ya mencione y si, si hay una forma economica de hacerlo.. que ocupas?**
+
 **Pues solo los modulos:**
 
 Esta fue las pruebas que hice(salgo en la pantalla Xd):
+
 ![](pics/ESP32-CAM-solo.jpg)
 
 Aqui te dejo como debe de ir conectado el ESP32-CAM si quieres hacer pruebas tu mismo:
+
 ![](pics/ESP32wiring.png)
 
 Aqui el nrf24l01:
+
 ![](pics/nrf24l01wiring.png)
 
 *Nota: El nrf24l01 y el CC1101 van conectados igual*
