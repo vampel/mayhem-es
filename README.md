@@ -70,7 +70,7 @@ Que hace cada una de ellas:
 En internet hay varias versiones pero los precios si se me hacen altos..
 
   ![MAYHEM en el mercado](pics/Mayhemsale.jpg)
-(115 dlls pero tu soldas todo y la cyber-bros la ultima vez que vi estaban en 85 dlls)
+(Eried 115 dlls pero tu soldas todo y la cyber-bros la ultima vez que vi estaban en 85 dlls)
 
 aqui precios tomados el dia 04/08/2024
 
@@ -89,9 +89,23 @@ Pues solo los modulos:
 Esta fue las pruebas que hice(salgo en la pantalla Xd):
 ![](pics/ESP32-CAM-solo.jpg)
 
+Aqui te dejo como debe de ir conectado el ESP32-CAM si quieres hacer pruebas tu mismo:
+![](pics/ESP32wiring.png)
+
+Aqui el nrf24l01:
+![](pics/nrf24l01wiring.png)
+
+Nota: El nrf24l01 y el CC1101 van conectados igual
+
+#
+
 Despues de probar que funciono opte por soldar todo en las Protoboards originales del Flipper Zero:
 ![](pics/mayhem1.0.jpeg)
 ![](pics/mayhem1.1.jpeg)
+
+Si, en la v1.0(solo ESP32-CAM) y v1.1(ESP32-CAM y nrf24l01)  solde todo.. por eso las siguientes versiones les agregue que se pudieran quitar(modular).
+
+
 
 
 
