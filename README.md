@@ -45,11 +45,21 @@ Nota: si se queda pegado toca reiniciar o quitar y volver a insertar
 Que hace cada una de ellas:
 
 - [MAYHEM] Camera: hace que en tu pantalla se vea la camara(como camara de gameboy).
+  ![](pics/Mcamera.jpg)
+  
 - [MAYHEM] Marauder: hace lo mismo que el wifi marauder(deauther a redes Wifi).
-- [MAYHEM] Morse Flash: Codigo Morse usando el Led Flash, Por default trae el ensaje SOS, ET Call Home, pero si permite escribir nuevos mensajes. 
+  ![](pics/MMarauder.jpg)
+  
+- [MAYHEM] Morse Flash: Codigo Morse usando el Led Flash, Por default trae el ensaje SOS, ET Call Home, pero si permite escribir nuevos mensajes.
+  ![](pics/MMorse.jpg)
+  
 - [MAYHEM] Motion Detection: Deteccion de movimiento.
+  ![](pics/Mdetect.jpg)
+  
 - [MAYHEM] Nanny Camera: es una camara que puedes accedes a ella por IP (te da una IP fija, usuario y contraseña)
+  ![](pics/MIPCamera.jpg)
 - [MAYHEM] QR Code: lectos de codigos QR (este ultimo no lo eh hecho funcionar)
+  ![](pics/MQR.jpg)
 
   Hasta aqui seria el firmware mayhem sobre el ESP32-CAM pero la Board MAYHEM que hay en el mercado (incluido la que diseñe) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
 
