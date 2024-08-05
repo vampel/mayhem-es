@@ -4,10 +4,10 @@
 #
 Introduccion y comparacion del por que personalmente prefiero el ESP32-CAM
 
-Si cuentas con la Devboard original de Flipper Zero (por el Hype yo compre el FZ junto con la Wifi Devboard y el Module Game) te daras cuenta que tiene wifi y bluetooth (es una ESP32-S2) al igual que en todas puedes usar los firmwares del Wifi Marauder / Evil Portal.
+Si cuentas con la Devboard original de Flipper Zero te daras cuenta que tiene wifi y bluetooth (es una ESP32-S2) y al igual que en todas puedes usar los firmwares del Wifi Marauder / Evil Portal.
 
 ![esp32](pics/FZfull.jpeg)
-
+(por el Hype yo compre el FZ junto con la Wifi Devboard y el Video Game Module)
 #
 
 Aqui la lista de ESP32 compatibles (ESP-8266 podria entrar en la lista para hacer deauther pero solo es Wifi):
@@ -32,13 +32,26 @@ A diferencia de los ESP32 mencionados el CAM tiene mas opciones:
 - Ranura SD
 - Led (flash para la camara)
 
-Por ende a alguien se le ocurrio hacer el ya mencionado MAYHEM que hace mas cosas que solo deauther
+Por ende a alguien se le ocurrio hacer el firmware ya mencionado MAYHEM que hace mas cosas que solo deauther
 
 ![menu](pics/MAYHEMmenu.jpg)
 
-- [MAYHEM] Camera
-- [MAYHEM] Marauder
-- [MAYHEM] Morse Flash
-- [MAYHEM] Motion Detection
-- [MAYHEM] Nanny Camera
-- [MAYHEM] QR Code
+Al abrir cualquiera de esos saldra este mensaje:
+
+![wESP32](pics/wESP32-CAM.jpg)
+
+Nota: si se queda pegado toca reiniciar o quitar y volver a insertar
+
+Que hace cada una de ellas:
+
+- [MAYHEM] Camera: hace que en tu pantalla se vea la camara(como camara de gameboy).
+- [MAYHEM] Marauder: hace lo mismo que el wifi marauder(deauther a redes Wifi).
+- [MAYHEM] Morse Flash: Codigo Morse usando el Led Flash, Por default trae el ensaje SOS, ET Call Home, pero si permite escribir nuevos mensajes. 
+- [MAYHEM] Motion Detection: Deteccion de movimiento.
+- [MAYHEM] Nanny Camera: es una camara que puedes accedes a ella por IP (te da una IP fija, usuario y contraseña)
+- [MAYHEM] QR Code: lectos de codigos QR (este ultimo no lo eh hecho funcionar)
+
+  Hasta aqui seria el firmware mayhem sobre el ESP32-CAM pero la Board MAYHEM que hay en el mercado (incluido la que diseñe) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
+
+  ![MAYHEM en el mercado](pics/Mayhemsale.jpg)
+  la de eried y la cyber-bros
