@@ -7,7 +7,6 @@ Introduccion y comparacion del por que personalmente prefiero el ESP32-CAM
 Si cuentas con la Devboard original de Flipper Zero (por el Hype yo compre el FZ junto con la Wifi Devboard y el Module Game) te daras cuenta que tiene wifi y bluetooth (es una ESP32-S2) al igual que en todas puedes usar los firmwares del Wifi Marauder / Evil Portal.
 
 ![esp32](pics/FZfull.jpeg)
-![esp32]()
 
 #
 
@@ -22,3 +21,23 @@ Aqui la lista de ESP32 compatibles (ESP-8266 podria entrar en la lista para hace
 - Todas las AWOK ESP32 Boards
 
 Nota: todos los Wifi son 2.4, si hay ESP32 con wifi 5.0(ESP32-C6) pero aun nadie saca un firmware para utilizarlo en el FZ.
+
+#
+
+A diferencia de los ESP32 mencionados el CAM tiene mas opciones:
+
+- Wifi
+- Bluetooth
+- Camara
+- Ranura SD
+- Led (flash para la camara)
+
+Por ende a alguien se le ocurrio hacer el ya mencionado MAYHEM que hace mas cosas que solo deauther
+![menu](pics/MAYHEM menu.jpg)
+
+- [MAYHEM] Camera
+- [MAYHEM] Marauder
+- [MAYHEM] Morse Flash
+- [MAYHEM] Motion Detection
+- [MAYHEM] Nanny Camera
+- [MAYHEM] QR Code
