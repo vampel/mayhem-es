@@ -33,7 +33,8 @@ A diferencia de los ESP32 mencionados el CAM tiene mas opciones:
 - Led (flash para la camara)
 
 Por ende a alguien se le ocurrio hacer el ya mencionado MAYHEM que hace mas cosas que solo deauther
-![menu](pics/MAYHEM menu.jpg)
+
+![menu](pics/MAYHEMmenu.jpg)
 
 - [MAYHEM] Camera
 - [MAYHEM] Marauder
