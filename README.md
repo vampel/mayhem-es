@@ -20,11 +20,11 @@ Aqui la lista de ESP32 compatibles (ESP-8266 podria entrar en la lista para hace
 - ESP32-S3
 - Todas las AWOK ESP32 Boards
 
-Nota: todos los Wifi son 2.4, si hay ESP32 con wifi 5.0(ESP32-C6) pero aun nadie saca un firmware para utilizarlo en el FZ.
+*Nota: todos los Wifi son 2.4, si hay ESP32 con wifi 5.0(ESP32-C6) pero aun nadie saca un firmware para utilizarlo en el Flipper Zero.*
 
 #
 
-A diferencia de los ESP32 mencionados el CAM tiene mas opciones:
+**A diferencia de los ESP32 mencionados el CAM tiene mas opciones:**
 
 - Wifi
 - Bluetooth
@@ -32,7 +32,7 @@ A diferencia de los ESP32 mencionados el CAM tiene mas opciones:
 - Ranura SD
 - Led (flash para la camara)
 
-Por ende a alguien se le ocurrio hacer el firmware ya mencionado MAYHEM que hace mas cosas que solo deauther
+**Por ende a alguien se le ocurrio hacer el firmware ya mencionado MAYHEM que hace mas cosas que solo deauther**
 
 ![menu](pics/MAYHEMmenu.jpg)
 
@@ -40,7 +40,7 @@ Al abrir cualquiera de esos saldra este mensaje si no detecta rapido el ESP32-CA
 
 ![wESP32](pics/wESP32-CAM.jpg)
 
-Nota: si se queda pegado toca reiniciar o quitar y volver a insertar la board
+*Nota: si se queda pegado toca reiniciar o quitar y volver a insertar la board*
 
 #
 
@@ -67,7 +67,7 @@ Que hace cada una de ellas:
 
 #
 
-En internet hay varias versiones pero los precios si se me hacen altos..
+**En internet hay varias versiones pero los precios si se me hacen altos..**
 
   ![MAYHEM en el mercado](pics/Mayhemsale.jpg)
 (Eried 115 dlls pero tu soldas todo y la cyber-bros la ultima vez que vi estaban en 85 dlls)
@@ -79,12 +79,12 @@ La Mayhem de Eryed (ya soldada y testeada):
 
 Orange Dragon(la descripcion dice solo la Board):
 ![](pics/Morange.jpg)
-Nota: las letras en la imagen dicen: Bring your own modules = tengas tus propios modulos osea que si, es solo la board.
+*Nota: las letras en la imagen dicen: Bring your own modules = tengas tus propios modulos osea que si, es solo la board.*
 
 #
 
-Los precios estan altos como ya mencione y si, si hay una forma economica de hacerlo.. que ocupas? 
-Pues solo los modulos:
+**Los precios estan altos como ya mencione y si, si hay una forma economica de hacerlo.. que ocupas?**
+**Pues solo los modulos:**
 
 Esta fue las pruebas que hice(salgo en la pantalla Xd):
 ![](pics/ESP32-CAM-solo.jpg)
@@ -95,7 +95,7 @@ Aqui te dejo como debe de ir conectado el ESP32-CAM si quieres hacer pruebas tu 
 Aqui el nrf24l01:
 ![](pics/nrf24l01wiring.png)
 
-Nota: El nrf24l01 y el CC1101 van conectados igual
+*Nota: El nrf24l01 y el CC1101 van conectados igual*
 
 #
 
@@ -104,6 +104,8 @@ Despues de probar que funciono opte por soldar todo en las Protoboards originale
 ![](pics/mayhem1.1.jpeg)
 
 Si, en la v1.0(solo ESP32-CAM) y v1.1(ESP32-CAM y nrf24l01)  solde todo.. por eso las siguientes versiones les agregue que se pudieran quitar(modular).
+
+Link a mi version en Github: [MAY-HEM](https://github.com/vampel/may-hem)
 
 
 
