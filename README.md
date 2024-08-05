@@ -6,7 +6,7 @@ Introduccion y comparacion del por que personalmente prefiero el ESP32-CAM
 
 Si cuentas con la Devboard original de Flipper Zero (por el Hype yo compre el FZ junto con la Wifi Devboard y el Module Game) te daras cuenta que tiene wifi y bluetooth (es una ESP32-S2) al igual que en todas puedes usar los firmwares del Wifi Marauder / Evil Portal.
 
-![esp32]([pics/FZ%full.jpeg](https://github.com/vampel/mayhem-es/blob/main/pics/FZ%20full.jpeg))
+![esp32](pics/FZfull.jpeg)
 ![esp32]()
 
 #
