@@ -135,12 +135,14 @@ SAVED: es donde estaran todas tus sub-frecuencias guardadas:
 
 aqui precios tomados el dia 04/08/2024
 
-La Mayhem de Eryed (ya soldada y testeada):
+La Mayhem de Eried (ya soldada y testeada):
 ![](pics/Meryed.jpg)
 
 Orange Dragon(la descripcion dice solo la Board):
 ![](pics/Morange.jpg)
 *Nota: las letras en la imagen dicen: Bring your own modules kit = tengas el kit de tus propios modulos... osea que si, es solo la board.*
+
+*pd. Los precios son en Dlls*
 
 #
 
@@ -174,6 +176,7 @@ Por eso las siguientes versiones les agregue que se pudieran desprender(modular)
 
 Link a mi version en Github: [MAY-HEM](https://github.com/vampel/may-hem)
 
+**MAY-HEM.. HEM = Hecho En Mexico**
 
 
 
