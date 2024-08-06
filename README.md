@@ -12,13 +12,13 @@ Si cuentas con la Devboard original de Flipper Zero te daras cuenta que tiene wi
 
 Aqui la lista de ESP32 compatibles (ESP-8266 podria entrar en la lista para hacer deauther pero solo es Wifi):
 
-- Flipper Zero WiFi Devboard:signal_strength:
-- ESP32-S2 (El mismo chip ESP32 que viene en el WiFi Devboard):signal_strength:
-- ESP32-S2-WROVER:signal_strength:
-- ESP32-WROOM:signal_strength:
-- ESP32 Marauder Mini:signal_strength:
-- ESP32-S3:signal_strength:
-- Todas las AWOK ESP32 Boards:signal_strength:
+- Flipper Zero WiFi Devboard :signal_strength:
+- ESP32-S2 (El mismo chip ESP32 que viene en el WiFi Devboard) :signal_strength:
+- ESP32-S2-WROVER :signal_strength:
+- ESP32-WROOM :signal_strength:
+- ESP32 Marauder Mini :signal_strength:
+- ESP32-S3: signal_strength:
+- Todas las AWOK ESP32 Boards :signal_strength:
 
 *Nota: todos los Wifi son 2.4, si hay ESP32 con wifi 5.0(ESP32-C6) pero aun nadie saca un firmware para utilizarlo en el Flipper Zero.*
 
@@ -46,28 +46,28 @@ Al abrir cualquiera de esos saldra este mensaje si no detecta rapido el ESP32-CA
 
 Que hace cada una de ellas:
 
-- [MAYHEM] Camera: hace que en tu pantalla se vea la camara(como camara de gameboy).:camera:
+- [MAYHEM] Camera: hace que en tu pantalla se vea la camara(como camara de gameboy) :camera:
   ![](pics/Mcamera.jpg)
   
-- [MAYHEM] Marauder: hace lo mismo que el wifi marauder(deauther a redes Wifi).:signal_strength:
+- [MAYHEM] Marauder: hace lo mismo que el wifi marauder(deauther a redes Wifi) :signal_strength:
   ![](pics/MMarauder.jpg)
   
-- [MAYHEM] Morse Flash: Codigo Morse usando el Led Flash, Por default trae el mensaje SOS, ET Call Home, pero si permite escribir nuevos mensajes.:high_brightness:
+- [MAYHEM] Morse Flash: Codigo Morse usando el Led Flash, Por default trae el mensaje SOS, ET Call Home, pero si permite escribir nuevos mensajes :high_brightness:
   ![](pics/MMorse.jpg)
   
-- [MAYHEM] Motion Detection: Deteccion de movimiento, deberas dejarla en un lugar fijo antes de iniciar para que la dejes hacer el learning, learning, learning..:runner:
+- [MAYHEM] Motion Detection: Deteccion de movimiento, deberas dejarla en un lugar fijo antes de iniciar para que la dejes hacer el learning, learning, learning :runner:
   ![](pics/Mdetect.jpg)
   
-- [MAYHEM] Nanny Camera: es una camara que puedes accedes a ella por IP (te da una IP fija, usuario y contraseña).:video_camera::signal_strength:
+- [MAYHEM] Nanny Camera: es una camara que puedes accedes a ella por IP (te da una IP fija, usuario y contraseña) :video_camera: :signal_strength:
   ![](pics/MIPCamera.jpg)
-- [MAYHEM] QR Code: lector de codigos QR (este ultimo no lo eh hecho funcionar).:checkered_flag:
+- [MAYHEM] QR Code: lector de codigos QR (este ultimo no lo eh hecho funcionar) :checkered_flag:
   ![](pics/MQR.jpg)
 
 Hasta aqui seria todo lo que hace el firmware mayhem sobre el ESP32-CAM junto con la app MAYHEM en el fliper pero la Board MAYHEM que hay en el mercado (incluido la que diseñe aunque se llama MAY-HEM no, no se me fue el guion por error) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
 
 #
 
-**nrf24l01**:signal_strength:
+**nrf24l01** :signal_strength:
 
 ![](https://github.com/vampel/may-hem/blob/main/images/NRF24onFZ.jpeg)
 
@@ -79,7 +79,7 @@ Seleccionaremos en el Flipper Zero el NRF:
 Y usaremos el Sniffer para escanear y detectar Mouse, teclados o kits(ambos) inalambricos:
 ![](pics/NRFsniffer.jpg)
 
-ya dentro daremos en el boton central:red_circle: para empezar a escanear/buscar dispositivos que trabajen a 2.4ghz :signal_strength:
+ya dentro daremos en el boton central :red_circle: para empezar a escanear/buscar dispositivos que trabajen a 2.4ghz :signal_strength:
 ![](pics/NRFsniff2.jpg)
 
 Una vez guardado ya puedes entrar a la opcion mouse jacker(si no sale error que no tiene nada el archivo .txt)
@@ -94,7 +94,7 @@ Una vez guardado ya puedes entrar a la opcion mouse jacker(si no sale error que 
 
 #
 
-**CC1101**:signal_strength:
+**CC1101** :signal_strength:
 
 ![](https://github.com/vampel/may-hem/blob/main/images/AssyCC1101.jpeg)
 
@@ -109,7 +109,7 @@ Ya dentro iremos hasta abajo del menu(Radio Settings):
 
 Y ahi podremos ver que si detecta la Antena como EXTERNAL:
 ![](pics/subradioext.jpg)
-y si, si le das con las flechas de a lado:arrow_backward::arrow_forward: cambiara a internal que seria la CC1101 interna del Flipper Zero(no te la deshabilita).
+y si, si le das con las flechas de a lado :arrow_backward: :arrow_forward: cambiara a internal que seria la CC1101 interna del Flipper Zero(no te la deshabilita).
 
 en las primeras opciones de Sub-ghz:
 ![](pics/sub-menu.jpg)
@@ -128,10 +128,10 @@ SAVED: es donde estaran todas tus sub-frecuencias guardadas:
 
 #
 
-**En internet hay varias versiones pero los precios si se me hacen altos..**:money_with_wings:
+**En internet hay varias versiones pero los precios si se me hacen altos..** :money_with_wings:
 
   ![MAYHEM en el mercado](pics/Mayhemsale.jpg)
-(Eried 115 dlls pero tu soldas todo y la cyber-bros la ultima vez que vi estaban en 85 dlls:heavy_dollar_sign:)
+(Eried 115 dlls pero tu soldas todo y la cyber-bros la ultima vez que vi estaban en 85 dlls :heavy_dollar_sign: )
 
 aqui precios tomados el dia 04/08/2024
 
@@ -142,11 +142,11 @@ Orange Dragon(la descripcion dice solo la Board):
 ![](pics/Morange.jpg)
 *Nota: las letras en la imagen dicen: Bring your own modules kit = tengas el kit de tus propios modulos... osea que si, es solo la board.*
 
-*pd. Los precios son en Dlls*:heavy_dollar_sign:
+*pd. Los precios son en Dlls* :heavy_dollar_sign: :money_with_wings:
 
 #
 
-**Los precios estan altos como ya mencione:money_with_wings: y si, si hay una forma economica de hacerlo.. que ocupas:free:?**
+**Los precios estan altos como ya mencione :money_with_wings: y si, si hay una forma economica de hacerlo.. que ocupas:free:?**
 
 **Pues solo los modulos:**
 
@@ -174,7 +174,7 @@ Si, en la v1.0(solo ESP32-CAM) y v1.1(ESP32-CAM y nrf24l01)  solde todo..
 
 Por eso las siguientes versiones les agregue que se pudieran desprender(modular) y asi poder utilizar esos mismos modulos en otros proyectos como Arduino, raspberry, etc.
 
-:link:Link a mi version en Github: [MAY-HEM](https://github.com/vampel/may-hem)
+:link: Link a mi version en Github: [MAY-HEM](https://github.com/vampel/may-hem)
 
 **MAY-HEM.. HEM = Hecho En Mexico**
 
