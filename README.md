@@ -122,7 +122,7 @@ SAVED: es donde estaran todas tus sub-frecuencias guardadas:
 
 *Nota: depende del Firmware en tu Flipper Zero(firmware de flipper zero) algunas sub-frecuencias vienen bloqueadas..*
 
-*Nota2: si, si se puede capturar Alarmas de carros.. (alarmas genericas)
+*Nota2: si, si se puede capturar Alarmas de c@rr0s.. (alarmas genericas)*
 
 #
 
