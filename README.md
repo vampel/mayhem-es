@@ -2,7 +2,7 @@
 ### Tutorial basico de como usar MAYHEM en español
 
 #
-Introduccion y comparacion del por que personalmente prefiero el ESP32-CAM:signal_strength:
+Introduccion y comparacion del por que personalmente prefiero el ESP32-CAM :signal_strength:
 
 Si cuentas con la Devboard original de Flipper Zero te daras cuenta que tiene wifi y bluetooth (es una ESP32-S2) y al igual que en todas puedes usar los firmwares del Wifi Marauder / Evil Portal.
 
