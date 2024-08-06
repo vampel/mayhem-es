@@ -26,11 +26,11 @@ Aqui la lista de ESP32 compatibles (ESP-8266 podria entrar en la lista para hace
 
 **A diferencia de los ESP32 mencionados el CAM tiene mas opciones:**
 
-- Wifi
-- Bluetooth
-- Camara
-- Ranura SD
-- Led (flash para la camara)
+- Wifi☑
+- Bluetooth☑
+- Camara☑
+- Ranura SD☑
+- Led (flash para la camara)☑
 
 **Por ende a alguien se le ocurrio hacer el firmware ya mencionado MAYHEM que hace mas cosas que solo deauther**
 
@@ -52,18 +52,18 @@ Que hace cada una de ellas:
 - [MAYHEM] Marauder: hace lo mismo que el wifi marauder(deauther a redes Wifi).
   ![](pics/MMarauder.jpg)
   
-- [MAYHEM] Morse Flash: Codigo Morse usando el Led Flash, Por default trae el ensaje SOS, ET Call Home, pero si permite escribir nuevos mensajes.
+- [MAYHEM] Morse Flash: Codigo Morse usando el Led Flash, Por default trae el mensaje SOS, ET Call Home, pero si permite escribir nuevos mensajes.
   ![](pics/MMorse.jpg)
   
-- [MAYHEM] Motion Detection: Deteccion de movimiento.
+- [MAYHEM] Motion Detection: Deteccion de movimiento, deberas dejarla en un lugar fijo antes de iniciar para que la dejes hacer el learning, learning, learning..
   ![](pics/Mdetect.jpg)
   
 - [MAYHEM] Nanny Camera: es una camara que puedes accedes a ella por IP (te da una IP fija, usuario y contraseña)
   ![](pics/MIPCamera.jpg)
-- [MAYHEM] QR Code: lectos de codigos QR (este ultimo no lo eh hecho funcionar)
+- [MAYHEM] QR Code: lector de codigos QR (este ultimo no lo eh hecho funcionar)
   ![](pics/MQR.jpg)
 
-Hasta aqui seria el firmware mayhem sobre el ESP32-CAM pero la Board MAYHEM que hay en el mercado (incluido la que diseñe) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
+Hasta aqui seria todo lo que hace el firmware mayhem sobre el ESP32-CAM junto con la app MAYHEM en el fliper pero la Board MAYHEM que hay en el mercado (incluido la que diseñe aunque se llama MAY-HEM no, no se me fue el guion por error) se llaman MAYHEM porque en teoria hacen todo, que vendria siendo la descripcion de la palabra MAYHEM.
 
 #
 
@@ -81,6 +81,8 @@ Y usaremos el Sniffer para escanear y detectar Mouse, teclados o kits(ambos) ina
 
 ya dentro daremos en el circulo del centro para empezar a escanear/buscar dispositivos que trabajen a 2.4ghz:
 ![](pics/NRFsniff2.jpg)
+
+Una vez guardado ya puedes entrar a la opcion mouse jacker(si no sale error que no tiene nada el archivo .txt)
 
 *PD. yo no pude capturar mouse por que el tengo es un Red Dragon ;[*
 
@@ -138,7 +140,7 @@ La Mayhem de Eryed (ya soldada y testeada):
 
 Orange Dragon(la descripcion dice solo la Board):
 ![](pics/Morange.jpg)
-*Nota: las letras en la imagen dicen: Bring your own modules = tengas tus propios modulos osea que si, es solo la board.*
+*Nota: las letras en la imagen dicen: Bring your own modules kit = tengas el kit de tus propios modulos... osea que si, es solo la board.*
 
 #
 
@@ -166,7 +168,9 @@ Despues de probar que funciono opte por soldar todo en las Protoboards originale
 ![](pics/mayhem1.0.jpeg)
 ![](pics/mayhem1.1.jpeg)
 
-Si, en la v1.0(solo ESP32-CAM) y v1.1(ESP32-CAM y nrf24l01)  solde todo.. por eso las siguientes versiones les agregue que se pudieran quitar(modular).
+Si, en la v1.0(solo ESP32-CAM) y v1.1(ESP32-CAM y nrf24l01)  solde todo.. 
+
+Por eso las siguientes versiones les agregue que se pudieran desprender(modular) y asi poder utilizar esos mismos modulos en otros proyectos como Arduino, raspberry, etc.
 
 Link a mi version en Github: [MAY-HEM](https://github.com/vampel/may-hem)
 
