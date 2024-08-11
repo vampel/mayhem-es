@@ -166,7 +166,15 @@ Aqui el nrf24l01:
 
 #
 
-Despues de probar que funciono opte por soldar todo en las Protoboards originales del Flipper Zero:
+**Cargar firmware y apps en Flipper Zero**
+
+1. El firmware MAYHEM solo se instala en el ESP32-CAM [web installer](https://flipper.ried.cl/webinstaller/).
+2. Los FAPS(aplicacion en el flipper zero) estan en este [link](https://github.com/eried/flipperzero-mayhem/wiki/Compilation-of-the-faps).
+3. Si en tu Flipper Zero tienes instalado el firmware [Xtreme-Firmware](https://github.com/Flipper-XFW/Xtreme-Firmware) o [MOMENTUM](https://github.com/Next-Flip/Momentum-Firmware) omite paso 2.
+
+#
+
+Despues de probar que todo funciono opte por soldar todo en las Protoboards originales del Flipper Zero:
 ![](pics/mayhem1.0.jpeg)
 ![](pics/mayhem1.1.jpeg)
 
@@ -174,7 +182,7 @@ Si, en la v1.0(solo ESP32-CAM) y v1.1(ESP32-CAM y nrf24l01)  solde todo..
 
 Por eso las siguientes versiones les agregue que se pudieran desprender(modular) y asi poder utilizar esos mismos modulos en otros proyectos como Arduino, raspberry, etc.
 
-:link: Link a mi version en Github: [MAY-HEM](https://github.com/vampel/may-hem)
+:link: Link a mi version 1.2 en Github: [MAY-HEM](https://github.com/vampel/may-hem)
 
 **MAY-HEM.. HEM = Hecho En Mexico**
 
