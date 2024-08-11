@@ -193,7 +193,9 @@ Por eso las siguientes versiones les agregue que se pudieran desprender(modular)
 - Cyber-Bros
 - [Justcallmekoko](https://github.com/justcallmekoko/ESP32Marauder)
 - Orange Dragon
+- [Evilportal](https://github.com/bigbrodude6119/flipper-zero-evil-portal)
 
+*Nota FInal, en mi Board se puede quitar el ESP32-CAM(con MAYHEM firmware) e insertar otro ESP32-CAM con el firmware de [Evilportal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) y ahora si, una board con todo.. una MAYHEM!*
 
 **MAY-HEM.. HEM = Hecho En Mexico**
 
