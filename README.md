@@ -170,7 +170,7 @@ Aqui el nrf24l01:
 
 **Cargar firmware y apps en Flipper Zero**
 
-1. El firmware MAYHEM solo se instala en el ESP32-CAM [web installer](https://flipper.ried.cl/webinstaller/) (agradecimientos a [Eried](https://github.com/eried/flipperzero-mayhem)).
+1. El firmware MAYHEM solo se instala en el ESP32-CAM [web installer](https://flipper.ried.cl/webinstaller/) (la web es de [Eried](https://github.com/eried/flipperzero-mayhem)).
 2. Los FAPS(aplicacion en el flipper zero :dolphin: ) estan en este [link](https://github.com/eried/flipperzero-mayhem/wiki/Compilation-of-the-faps).
 3. Si en tu Flipper Zero :dolphin:  tienes instalado el firmware [Xtreme-Firmware](https://github.com/Flipper-XFW/Xtreme-Firmware) o [MOMENTUM](https://github.com/Next-Flip/Momentum-Firmware) ya viene instalado MAYHEM asi que omite paso 2.
 4. Si la MAYHEM que tienes es mi Version MAY-HEM con modulos omite paso 1 
